@@ -1,0 +1,13 @@
+prefix=/Users/kumarshivam/IdeaProjects/text_summarizer/text
+exec_prefix=/Users/kumarshivam/IdeaProjects/text_summarizer/text
+libdir=/Users/kumarshivam/IdeaProjects/text_summarizer/text/lib
+sharedlibdir=/Users/kumarshivam/IdeaProjects/text_summarizer/text/lib
+includedir=/Users/kumarshivam/IdeaProjects/text_summarizer/text/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

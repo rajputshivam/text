@@ -1,0 +1,15 @@
+# tk pkg-config source file
+
+prefix=/Users/kumarshivam/IdeaProjects/text_summarizer/text
+exec_prefix=/Users/kumarshivam/IdeaProjects/text_summarizer/text
+libdir=/Users/kumarshivam/IdeaProjects/text_summarizer/text/lib
+includedir=${prefix}/include
+
+Name: The Tk Toolkit
+Description: Tk is a cross-platform graphical user interface toolkit, the standard GUI not only for Tcl, but for many other dynamic languages as well.
+URL: https://www.tcl-lang.org/
+Version: 8.6.12
+Requires: tcl >= 8.6
+Libs: -L${libdir} -ltk8.6 -ltkstub8.6
+Libs.private:  
+Cflags: -I${includedir}
